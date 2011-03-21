@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>log</name>
+<help></help>
+<starttext><![CDATA[<cflog text="$${text}" type="$${Type:information|error}">]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

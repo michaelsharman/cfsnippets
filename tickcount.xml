@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>tickcount</name>
+<help></help>
+<starttext><![CDATA[<cfset start = getTickCount()>]]></starttext>
+<endtext><![CDATA[<cfset end = getTickCount()><cflog text="Time taken: #end-start#" type="information">]]></endtext>
+</snippet>

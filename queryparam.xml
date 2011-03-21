@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>queryparam</name>
+<help></help>
+<starttext><![CDATA[<cfqueryparam cfsqltype="$${Type:cf_sql_varchar|cf_sql_integer|cf_sql_tinyint|cf_sql_timestamp}" value="$${value:}">]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>
