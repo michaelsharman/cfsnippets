@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>form</name>
+<help></help>
+<starttext><![CDATA[<form id="$${Id}" action="$${Action}" method="post">
+	]]></starttext>
+<endtext><![CDATA[	
+	<input type="submit" name="btnSubmit" id="btnSubmit" value="Submit" />
+</form>]]></endtext>
+</snippet>
